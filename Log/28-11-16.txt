@@ -1,0 +1,22 @@
+
+Log Entry : 
+11/28/2016 19:02:42
+Errore in: http://localhost:3356/Index.aspx. Messaggio:Si è verificato un errore durante una query: Il nome di colonna 'password' non è valido.
+__________________________
+
+Log Entry : 
+11/28/2016 19:03:50
+Errore in: http://localhost:3356/Index.aspx. Messaggio:Si è verificato un errore durante una query: Il nome di colonna 'email' non è valido.
+__________________________
+
+Log Entry : 
+11/28/2016 19:33:09
+Errore in: http://localhost:3356/Index.aspx. Messaggio:Si è verificato un errore durante una query di selezione: Il nome di colonna 'federico.angeloni@yahoo.it' non è valido.
+Il nome di colonna 'ciaociao' non è valido.
+__________________________
+
+Log Entry : 
+11/28/2016 19:39:20
+Errore in: http://localhost:3356/Index.aspx. Messaggio:Si è verificato un errore durante una query di selezione: Il nome di colonna 'federico.angeloni@yahoo.it' non è valido.
+Il nome di colonna 'aaaaaaa' non è valido.
+__________________________

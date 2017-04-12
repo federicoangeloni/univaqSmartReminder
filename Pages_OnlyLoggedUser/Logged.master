@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Logged.master.cs" Inherits="Logged" %>
+
+<!-- Dichiarazione User Control -->
+<%@ Register Src="../UserControl/NavbarLogged.ascx" TagPrefix="uc1" TagName="NavbarLogged" %>
+<%@ Register Src="../UserControl/Footer.ascx" TagPrefix="uc1" TagName="Footer" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Univaq Smart Reminder</title>
+
+    <!-- PLACEHOLDER_HEAD -->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- Bootstrap -->
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../Custom/CustomStyleSheet.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <form id="form1" runat="server">
+        <div class="div_background">
+
+            <div class="div_background2">
+            </div>
+
+            <!-- Navbar -->
+            <uc1:NavbarLogged runat="server" ID="NavbarLogged" />
+
+            <div id="content">
+                <!-- PLACEHOLDER_BODY -->
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderBody" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <!-- Footer -->
+            <uc1:Footer runat="server" ID="Footer" />
+
+        </div>
+    </form>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Script JS Analog Clock -->
+    <script src="../Script/AnalogClock/clock.js"></script>
+
+    <!-- Script JS NewsBox con scorrimento automatico -->
+    <script src="../Script/NewsBox/jquery.bootstrap.newsbox.min.js"></script>
+    <script src="../Script/NewsBox/newsbox.js"></script>
+
+</body>
+</html>
